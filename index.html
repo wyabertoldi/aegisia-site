@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aegisia — Inteligência que protege</title>
+<meta name="description" content="Aegisia: sistemas de gestão inteligentes para varejo, restaurantes, supermercados, oficinas e muito mais. Em breve.">
+<meta property="og:title" content="Aegisia — Inteligência que protege">
+<meta property="og:description" content="Sistemas de gestão inteligentes para o seu negócio. Em breve.">
+<meta property="og:image" content="https://aegisia.app.br/assets/aegisia-banner.jpg">
+<meta property="og:url" content="https://aegisia.app.br/">
+<meta name="theme-color" content="#020F26">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#020F26; --bg2:#06204A; --azul:#1E90FF; --ciano:#4FC3FF;
+    --texto:#EAF2FF; --suave:#9DB3D6; --linha:rgba(79,195,255,.18);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    font-family:Montserrat,Arial,Helvetica,sans-serif;color:var(--texto);
+    background:radial-gradient(ellipse at 50% 0%,var(--bg2) 0%,var(--bg) 60%) fixed,var(--bg);
+    min-height:100vh;display:flex;flex-direction:column;
+  }
+  main{flex:1;width:100%;max-width:1100px;margin:0 auto;padding:24px 16px 48px}
+  .hero img{display:block;width:100%;height:auto;border-radius:12px}
+  .breve{text-align:center;margin:40px auto 0;max-width:680px}
+  .selo{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+        color:var(--ciano);border:1px solid var(--linha);border-radius:999px;padding:6px 16px;margin-bottom:18px}
+  h1{font-size:clamp(24px,4vw,34px);font-weight:700;margin:0 0 12px;line-height:1.25}
+  h1 span{color:var(--azul)}
+  .breve p{color:var(--suave);font-size:16px;line-height:1.6;margin:0 0 28px}
+  .btn{display:inline-block;background:var(--azul);color:#fff;text-decoration:none;font-weight:600;
+       padding:14px 28px;border-radius:8px;box-shadow:0 0 24px rgba(30,144,255,.35);transition:transform .15s,box-shadow .15s}
+  .btn:hover{transform:translateY(-1px);box-shadow:0 0 32px rgba(30,144,255,.55)}
+  .telas{margin-top:56px}
+  .telas h2{text-align:center;font-size:20px;font-weight:600;margin:0 0 20px;color:var(--texto)}
+  .grade{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+  .grade figure{margin:0;background:rgba(6,32,74,.5);border:1px solid var(--linha);border-radius:10px;overflow:hidden}
+  .grade img{display:block;width:100%;height:auto}
+  .grade figcaption{font-size:13px;color:var(--suave);padding:10px 14px}
+  footer{border-top:1px solid var(--linha);padding:20px 16px;text-align:center;font-size:13px;color:var(--suave);line-height:1.7}
+  footer a{color:var(--ciano);text-decoration:none}
+</style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <img src="assets/aegisia-banner.jpg" width="1703" height="923"
+         alt="Aegisia — Inteligência que protege. Varejo, restaurantes, supermercados, oficinas e muito mais.">
+  </section>
+
+  <section class="breve">
+    <div class="selo">Em breve</div>
+    <h1>Gestão inteligente para o seu negócio, <span>com segurança.</span></h1>
+    <p>Estamos preparando uma plataforma completa para varejo, restaurantes, supermercados, oficinas e outros segmentos. Quer saber mais ou ser um dos primeiros a usar?</p>
+    <a class="btn" href="mailto:contato@aegisia.app.br?subject=Quero%20conhecer%20a%20Aegisia">Fale com a gente</a>
+  </section>
+
+  <!--
+    TELAS DO SISTEMA — para ativar:
+    1. Coloque os prints em assets/ (ex.: tela-1.png, tela-2.png, tela-3.png), ~1600px de largura.
+    2. Remova as marcas de comentário desta seção e ajuste as legendas.
+
+  <section class="telas">
+    <h2>Uma prévia do que vem por aí</h2>
+    <div class="grade">
+      <figure><img src="assets/tela-1.png" alt="Tela do sistema Aegisia" loading="lazy"><figcaption>Painel de vendas</figcaption></figure>
+      <figure><img src="assets/tela-2.png" alt="Tela do sistema Aegisia" loading="lazy"><figcaption>Controle de estoque</figcaption></figure>
+      <figure><img src="assets/tela-3.png" alt="Tela do sistema Aegisia" loading="lazy"><figcaption>Financeiro</figcaption></figure>
+    </div>
+  </section>
+  -->
+</main>
+
+<footer>
+  © 2026 Aegisia · <a href="mailto:contato@aegisia.app.br">contato@aegisia.app.br</a><br>
+  <!-- CNPJ 00.000.000/0001-00 · --> Dados tratados conforme a LGPD — <a href="mailto:privacidade@aegisia.app.br">privacidade@aegisia.app.br</a>
+</footer>
+</body>
+</html>
